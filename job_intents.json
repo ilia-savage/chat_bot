@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi there", "Hello", "Good day", "Is anyone there?", "Hey", "How can I help you today?"],
+      "responses": ["Hello! How can I assist you today?", "Hi! I'm here to help you with any questions you have.", "Greetings! How may I help you on our site today?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "I'm done, thanks"],
+      "responses": ["Goodbye! Don't hesitate to reach out if you need more help.", "See you later! Hope I was able to assist you well.", "Farewell, contact us anytime if you need further assistance."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That was helpful", "Appreciate your help"],
+      "responses": ["You're welcome! Glad to help.", "Anytime! Let me know if there's anything else I can do for you.", "Happy to be of service!"]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": ["I'm not sure I understand, could you provide more details?", "Let's try a different approach. What do you need help with?", "I may not have understood that correctly. Could you clarify?"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["What is your name?", "Who are you?", "Tell me about yourself"],
+      "responses": ["I'm your virtual assistant here to help you navigate our website and answer your queries.", "I am the customer support bot designed to help you with any issues or information you need."]
+    },
+    {
+      "tag": "options",
+      "patterns": ["What can you do?", "How can you help me?", "What services do you offer?"],
+      "responses": ["I can help you with your account, orders, product information, and more. What specific information are you looking for?", "I'm here to provide support with various services such as managing your account, processing orders, and addressing any queries you may have."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["Help me with my account", "I have a problem with an order", "I need support"],
+      "responses": ["I can help with that! What seems to be the issue with your account?", "I'm sorry to hear about your order issue. Could you provide more details so I can assist you better?", "Sure, I'm here to help. What do you need assistance with?"]
+    },
+    {
+      "tag": "account_help",
+      "patterns": ["I can't log in", "How do I reset my password?", "Update account information", "Change my password", "Account settings"],
+      "responses": ["I can help you reset your password or update your account settings. What exactly do you need help with?", "To change your password, you can follow the link I send you by email. Do you want me to send it now?", "You can update your account information from your account dashboard or I can help you here. What changes would you like to make?"]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["Where is my order?", "Track my order", "Order status", "Has my order shipped?", "Shipping status"],
+      "responses": ["I can help you with that. Can you please provide your order number?", "Let me check the status of your order. Please hold on for a moment.", "I'm looking up your order now. Can you confirm your order number or the email address used for the order?"]
+    },
+    {
+      "tag": "order_issues",
+      "patterns": ["I received a wrong item", "My order is incomplete", "There's a problem with my order", "Part of my order is missing", "I need to return an item"],
+      "responses": ["I'm sorry to hear about this issue. I'll help you resolve it. Can you provide the order number?", "For returns or to report any issues with your order, please let me know the order details and the issue.", "Let's sort this out. Please tell me more about what's wrong with your order."]
+    },
+    {
+      "tag": "order_modification",
+      "patterns": ["I need to change my order", "Can I modify my order?", "I want to add items to my order", "Cancel my order"],
+      "responses": ["Sure, I can help you modify your order. What changes do you need to make?", "To add items or make changes to your existing order, please provide the order number and the details you want to change.", "If you need to cancel your order, I can assist with that. Please provide your order number."]
+    },
+    {
+      "tag": "feedback",
+      "patterns": ["I want to leave feedback", "Can I give a review?", "How do I leave feedback?"],
+      "responses": ["Of course! I can help you with that. What would you like to leave feedback about?", "Feedback is always welcome! What are your thoughts on our services?", "Please feel free to share your review. Your feedback is valuable to us."]
+    }
+  ]
+}
